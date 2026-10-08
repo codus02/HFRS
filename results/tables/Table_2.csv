@@ -1,0 +1,27 @@
+﻿Covariate (original unit),IRR,95% CrI,Eight-graph robustness
+Water environment,,,
+"Domestic groundwater wells (Number/1,000 population)",1.484,1.242–1.772*,Robust
+"Septic-tank users outside sewer service areas (Persons/1,000 population)",1.137,1.019–1.269*,Robust
+Land use,,,
+Miscellaneous land share (%),1.145,1.046–1.255*,Robust
+Park land share (%),0.859,0.766–0.964*,Robust
+Warehouse land share (%),0.853,0.776–0.938*,Robust
+Salt-pan land share (%),1.076,0.971–1.191,—
+Elevated-road area share (%),1.040,0.961–1.124,—
+Riverside green-space area share (%),1.025,0.950–1.106,—
+Religious land share (%),0.887,0.779–1.011,—
+Population and households,,,
+"Vacant dwellings (Dwellings/1,000 population)",0.844,0.743–0.960*,Robust
+Row-house share (% of all dwellings),1.052,0.965–1.149,—
+Socioeconomic conditions,,,
+"National Pension individually insured persons reporting income (Persons/1,000 population)",0.905,0.835–0.981*,Robust
+Healthcare access,,,
+"Home-based long-term care agencies (Number/1,000 population)",1.224,1.118–1.339*,Robust
+"Clinics (Number/1,000 population)",0.904,0.827–0.989*,Robust
+"Family medicine specialists (Persons/1,000 population)",1.018,0.933–1.110,—
+Education and health,,,
+"Primary schools (Schools/1,000 population)",1.267,1.088–1.477*,Robust
+"Recreational welfare facilities for older adults (Number/1,000 older residents)",1.157,0.983–1.361,—
+Prespecified adjustment,,,
+Fiscal autonomy (before revenue reclassification) (%),1.173,1.056–1.305*,Robust
+Sex ratio (Males/100 females),0.986,0.893–1.089,—

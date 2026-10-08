@@ -1,0 +1,130 @@
+﻿model,variable_id,beta,IRR,lo,hi,credible,scale,doubling_IRR,doubling_lo,doubling_hi,covariate,domain
+BASE,V01,0.398002708076747,1.48884806181663,1.24522093169183,1.77716730342682,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+BASE,V02,0.13597233075634,1.14565019388195,1.04605929906317,1.25485964598846,True,frozen selected form,,,,Miscellaneous land share,Land use
+BASE,V03,0.12872250027472,1.13737445926931,1.01923252108782,1.26906597261426,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+BASE,V04,-0.151497896609484,0.859419689966251,0.766214606145867,0.964154541452299,True,frozen selected form,,,,Park land share,Land use
+BASE,V05,-0.158628174184467,0.853313584008527,0.775621453205651,0.938016221210064,True,frozen selected form,,,,Warehouse land share,Land use
+BASE,V06,0.237071060994814,1.26753118660213,1.08765300001976,1.47724901340486,True,frozen selected form,,,,Primary schools,Education and health
+BASE,V07,0.201533875771754,1.22327767583626,1.1179788687123,1.33854192748094,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+BASE,V08,-0.100272638567,0.904590758084974,0.834646005114622,0.980402596803084,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+BASE,V09,-0.100637175545845,0.904261061399899,0.82704984161261,0.988955843404012,True,frozen selected form,,,,Clinics,Healthcare access
+BASE,V10,-0.169542629513317,0.84405077223978,0.742670865043817,0.95972718470435,True,frozen selected form,,,,Vacant dwellings,Population and households
+BASE,V11,0.159500966837302,1.17292539624821,1.05557790982492,1.30438322849918,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+BASE,V12,-0.0143164776615364,0.985785515795631,0.893100288014621,1.08862475879909,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+BASE,V13,0.146028146160135,1.15722875913839,0.983350771003211,1.36131323128079,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+BASE,V14,0.0742036450657113,1.0770261142187,0.971676833941798,1.19216969528346,False,frozen selected form,,,,Salt-pan land share,Land use
+BASE,V15,0.0522396248448553,1.05362818775711,0.966321403670758,1.15009098394746,False,frozen selected form,,,,Row-house share,Population and households
+BASE,V16,0.0381831735901312,1.03892151843472,0.95981959060216,1.12379338910323,False,frozen selected form,,,,Elevated-road area share,Land use
+BASE,V17,0.0249772205348743,1.02529176466042,0.949935534818659,1.10643251057126,False,frozen selected form,,,,Riverside green-space area share,Land use
+BASE,V18,0.0181210104203264,1.01828619217457,0.933493655519195,1.11081206695931,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+BASE,V19,-0.118499673655576,0.888252105532879,0.779471551533671,1.01261128184973,False,frozen selected form,,,,Religious land share,Land use
+DROP50,V01,0.387585865819365,1.47341946455705,1.23397338190993,1.75867555246952,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+DROP50,V02,0.135109446283688,1.14466205650407,1.04510480571091,1.2538582785808,True,frozen selected form,,,,Miscellaneous land share,Land use
+DROP50,V03,0.125239091372275,1.13341941147608,1.01604689611963,1.26425308498058,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+DROP50,V04,-0.149162066045263,0.861429495113905,0.768276986062964,0.966075173967467,True,frozen selected form,,,,Park land share,Land use
+DROP50,V05,-0.161266018588146,0.851065641710845,0.773773108272955,0.935360822529765,True,frozen selected form,,,,Warehouse land share,Land use
+DROP50,V06,0.235767499672861,1.26587995844531,1.08631515207048,1.47518474606515,True,frozen selected form,,,,Primary schools,Education and health
+DROP50,V07,0.202076517195938,1.22394165711203,1.11846994220103,1.33940040274419,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+DROP50,V08,-0.101902577715417,0.903117531156358,0.833536118620824,0.978441738774381,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+DROP50,V09,-0.0992799143358664,0.905489213135048,0.828181246601486,0.990279754307473,True,frozen selected form,,,,Clinics,Healthcare access
+DROP50,V10,-0.169779569930199,0.843850806188891,0.742257627837468,0.959845101944792,True,frozen selected form,,,,Vacant dwellings,Population and households
+DROP50,V11,0.158254090043548,1.17146381418656,1.05416874085816,1.30281420780975,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+DROP50,V12,-0.0147020438698538,0.985405503476754,0.89257156771558,1.08845532499222,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+DROP50,V13,0.145480673319749,1.15659538121707,0.982368145658774,1.3612003271461,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+DROP50,V14,0.0703312658647479,1.07286352545778,0.967939664130375,1.18777363088144,False,frozen selected form,,,,Salt-pan land share,Land use
+DROP50,V15,0.0504948134837194,1.05179140820759,0.964887015173021,1.14795515252876,False,frozen selected form,,,,Row-house share,Population and households
+DROP50,V16,0.0371150057641216,1.03781236837964,0.959038165673585,1.12235980423657,False,frozen selected form,,,,Elevated-road area share,Land use
+DROP50,V18,0.0159870217673778,1.01611549793722,0.931656196374466,1.10830661766082,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+DROP50,V19,-0.117688565822943,0.888972866040761,0.780254099610584,1.01329049222403,False,frozen selected form,,,,Religious land share,Land use
+DROP20,V01,0.333331485123855,1.39560984570436,1.17610130905473,1.65622959863444,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+DROP20,V02,0.123865409369936,1.13186352252242,1.03399172456631,1.23928666534539,True,frozen selected form,,,,Miscellaneous land share,Land use
+DROP20,V03,0.112739295787959,1.11934007823326,1.0040459384852,1.2478818076348,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+DROP20,V04,-0.140969587743181,0.868515724819299,0.775745430470105,0.972481064551423,True,frozen selected form,,,,Park land share,Land use
+DROP20,V05,-0.159680920905948,0.852415733618016,0.775064378400176,0.936812456845284,True,frozen selected form,,,,Warehouse land share,Land use
+DROP20,V06,0.220942441863897,1.2472516390184,1.07247072313972,1.45070055920855,True,frozen selected form,,,,Primary schools,Education and health
+DROP20,V07,0.194073953467266,1.21418607290605,1.10967590657998,1.32860455033263,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+DROP20,V08,-0.10798970908823,0.897636833884363,0.829274862310787,0.971501681788842,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+DROP20,V09,-0.0881787245296416,0.915597222416324,0.837736261323769,1.00090398098582,False,frozen selected form,,,,Clinics,Healthcare access
+DROP20,V11,0.157894434351486,1.17104256631438,1.05380488805404,1.30211036318911,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+DROP20,V12,0.0070291383196797,1.00705390069783,0.913120787410977,1.11102869027156,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+DROP20,V13,0.121685293739621,1.12939861703137,0.959805960257129,1.32863196161628,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+DROP20,V14,0.052406079621496,1.05380358379911,0.951558062509097,1.16616150672088,False,frozen selected form,,,,Salt-pan land share,Land use
+DROP20,V16,0.0377575680114172,1.03847944172246,0.959631222430407,1.12316984797788,False,frozen selected form,,,,Elevated-road area share,Land use
+DROP20,V18,0.0046205826546812,1.00463127400713,0.921430378049284,1.09552488136228,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+DROP20,V19,-0.115410850957039,0.891000000493871,0.782273557097135,1.01526086839545,False,frozen selected form,,,,Religious land share,Land use
+NB_NO_IID,V01,0.405298613535379,1.49975027893,1.25472381938905,1.78770286170807,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+NB_NO_IID,V02,0.134949572588274,1.14447906977887,1.04489702279787,1.25365524745288,True,frozen selected form,,,,Miscellaneous land share,Land use
+NB_NO_IID,V03,0.130938116443065,1.13989723823364,1.02121907447492,1.27219726343792,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+NB_NO_IID,V04,-0.153949461377079,0.857315347453688,0.764280630732093,0.961906222599602,True,frozen selected form,,,,Park land share,Land use
+NB_NO_IID,V05,-0.1587649059151,0.853196916941639,0.775508428601928,0.937952045453403,True,frozen selected form,,,,Warehouse land share,Land use
+NB_NO_IID,V06,0.236067424417708,1.26625968411057,1.08599966545605,1.47646447518794,True,frozen selected form,,,,Primary schools,Education and health
+NB_NO_IID,V07,0.199157822529247,1.22037455330079,1.11549633581176,1.33515637748895,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+NB_NO_IID,V08,-0.102511759300976,0.902567536127213,0.832910180823119,0.978154473238871,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+NB_NO_IID,V09,-0.0962197041616249,0.908264444667826,0.830751552164759,0.993270489623455,True,frozen selected form,,,,Clinics,Healthcare access
+NB_NO_IID,V10,-0.16747707418222,0.845796007631723,0.744337856230328,0.961536287525683,True,frozen selected form,,,,Vacant dwellings,Population and households
+NB_NO_IID,V11,0.158384993319873,1.17161717267527,1.0546472495271,1.30255879628096,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+NB_NO_IID,V12,-0.0122676613597845,0.987807279634559,0.895025801840496,1.09075316169944,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+NB_NO_IID,V13,0.146985258932718,1.158336887782,0.983239598094872,1.3641485526275,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+NB_NO_IID,V14,0.0753887158811679,1.07830322301686,0.973076348132423,1.19325555910562,False,frozen selected form,,,,Salt-pan land share,Land use
+NB_NO_IID,V15,0.0546386664624195,1.05615892008128,0.968513585261096,1.15272805327423,False,frozen selected form,,,,Row-house share,Population and households
+NB_NO_IID,V16,0.038961811074945,1.03973077669127,0.960300122843512,1.12501769275876,False,frozen selected form,,,,Elevated-road area share,Land use
+NB_NO_IID,V17,0.0253152385882317,1.0256383903664,0.950251903069717,1.1068260650685,False,frozen selected form,,,,Riverside green-space area share,Land use
+NB_NO_IID,V18,0.0186955398232359,1.01887139562475,0.933946419234837,1.11151680177558,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+NB_NO_IID,V19,-0.116129219773198,0.890360163725226,0.7810351167133,1.01528048350022,False,frozen selected form,,,,Religious land share,Land use
+POIS_IID,V01,0.402246759634287,1.49518023728733,1.26458324760754,1.76497851197244,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+POIS_IID,V02,0.13891876839527,1.14903075860011,1.05009264528594,1.25748261432747,True,frozen selected form,,,,Miscellaneous land share,Land use
+POIS_IID,V03,0.127989839607106,1.13654145493067,1.02069691915359,1.2654352364868,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+POIS_IID,V04,-0.14520101898917,0.864848424679784,0.772259459907158,0.968682856782141,True,frozen selected form,,,,Park land share,Land use
+POIS_IID,V05,-0.158656242516359,0.853289633255773,0.776568696356049,0.937003128170918,True,frozen selected form,,,,Warehouse land share,Land use
+POIS_IID,V06,0.241530470222652,1.27319624889968,1.09473677580913,1.48082442282248,True,frozen selected form,,,,Primary schools,Education and health
+POIS_IID,V07,0.20554960629819,1.2281999059015,1.12339591925981,1.34286716732107,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+POIS_IID,V08,-0.102276399150144,0.902779989559207,0.834641462951852,0.97647710293896,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+POIS_IID,V09,-0.109732545595832,0.896073762124614,0.820390454980401,0.978897296141462,True,frozen selected form,,,,Clinics,Healthcare access
+POIS_IID,V10,-0.172545904301352,0.841519658553133,0.741339532542744,0.955506012156944,True,frozen selected form,,,,Vacant dwellings,Population and households
+POIS_IID,V11,0.158084510117204,1.17126517428238,1.05582855680373,1.29983090414027,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+POIS_IID,V12,-0.0212696362620925,0.978954967221312,0.888130972767908,1.07925825394375,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+POIS_IID,V13,0.144067542490652,1.15496211490836,0.986895844432031,1.35131595552324,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+POIS_IID,V14,0.0768585520501245,1.07988931745909,0.977892371887146,1.19193496888709,False,frozen selected form,,,,Salt-pan land share,Land use
+POIS_IID,V15,0.0552655160497198,1.05682118041158,0.971400358584912,1.15012302057108,False,frozen selected form,,,,Row-house share,Population and households
+POIS_IID,V16,0.0305757755406268,1.03104801530952,0.954123217297648,1.11368699603754,False,frozen selected form,,,,Elevated-road area share,Land use
+POIS_IID,V17,0.0235271459764769,1.02380609258552,0.949601497166266,1.10358196284822,False,frozen selected form,,,,Riverside green-space area share,Land use
+POIS_IID,V18,0.021334396466114,1.02156360178611,0.937756651104022,1.11281776917233,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+POIS_IID,V19,-0.116646973306804,0.889899295922537,0.783613562552097,1.01079932197628,False,frozen selected form,,,,Religious land share,Land use
+LAND_ALR,V01,0.40675312052625,1.50193326339349,1.25821044707708,1.79118503103462,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+LAND_ALR,V02,0.150879668526518,1.16285672139986,1.04057409428969,1.29976538437133,True,standardized ALR,1.08972595198452,1.02290902484765,1.16103765379198,Miscellaneous land share,Land use
+LAND_ALR,V03,0.120151709678631,1.12766791674018,1.00744378076954,1.26219388161167,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+LAND_ALR,V04,-0.0283093744676459,0.972087581198015,0.839694548938753,1.12537835155625,False,standardized ALR,0.991598730831996,0.949263195099597,1.03582882873371,Park land share,Land use
+LAND_ALR,V05,-0.0424930253891334,0.958397149944813,0.866023702487524,1.06010772895929,False,standardized ALR,0.98006020300186,0.934092160633099,1.02805334844898,Warehouse land share,Land use
+LAND_ALR,V06,0.26614947859172,1.3049301032232,1.11607496842368,1.52585623636504,True,frozen selected form,,,,Primary schools,Education and health
+LAND_ALR,V07,0.221800989078783,1.24832292324758,1.13944272402138,1.36767643629575,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+LAND_ALR,V08,-0.0892321804226121,0.914633188999279,0.84270921742874,0.992626916013492,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+LAND_ALR,V09,-0.089065926678479,0.91478526283253,0.835975129493495,1.00121306863262,False,frozen selected form,,,,Clinics,Healthcare access
+LAND_ALR,V10,-0.142482127255179,0.867203053452631,0.762205229772246,0.986964614698495,True,frozen selected form,,,,Vacant dwellings,Population and households
+LAND_ALR,V11,0.144983160697072,1.1560201035314,1.03705662188672,1.28966665582671,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+LAND_ALR,V12,-0.0067762455547066,0.993246661426887,0.898031733541312,1.09891068130942,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+LAND_ALR,V13,0.163525898127991,1.17765585387452,0.993311578931336,1.39570505925857,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+LAND_ALR,V14,-0.0165366733469845,0.983599306850552,0.894900957963995,1.0807207231331,False,standardized ALR,0.994457188452169,0.963364919535875,1.02643539184588,Salt-pan land share,Land use
+LAND_ALR,V15,0.0548568078584118,1.05638933719334,0.968191544966003,1.15404351427724,False,frozen selected form,,,,Row-house share,Population and households
+LAND_ALR,V16,0.0160395685457379,1.01616889293593,0.93851125442801,1.0996057872262,False,frozen selected form,,,,Elevated-road area share,Land use
+LAND_ALR,V17,0.0205681419457866,1.02078112388534,0.945092323595137,1.10234679816981,False,frozen selected form,,,,Riverside green-space area share,Land use
+LAND_ALR,V18,0.0348478694157046,1.03546217135165,0.94521947910988,1.13427836004907,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+LAND_ALR,V19,-0.185637808007772,0.830574367894876,0.690473978112341,0.999087485860457,True,standardized ALR,0.895256429669929,0.801913467642844,0.999456016929359,Religious land share,Land use
+LAND_ALR_SMALL,V01,0.406397432042153,1.50139913802457,1.2579480868163,1.79120462721527,True,frozen selected form,,,,Domestic groundwater wells,Water environment
+LAND_ALR_SMALL,V02,0.14739234135812,1.15880852236228,1.03631713015972,1.29602080954022,True,standardized ALR,1.08756386130419,1.02052372977992,1.15913154113658,Miscellaneous land share,Land use
+LAND_ALR_SMALL,V03,0.118595248853997,1.12591411102358,1.00618279638416,1.25981983320198,True,frozen selected form,,,,Septic-tank users outside sewer service areas,Water environment
+LAND_ALR_SMALL,V04,-0.028060852036802,0.972329196788891,0.84398226661749,1.12022891808808,False,standardized ALR,0.991749391569391,0.951152740621356,1.03408822309286,Park land share,Land use
+LAND_ALR_SMALL,V05,-0.0443952186643648,0.956575826135319,0.862114711247859,1.06079075671652,False,standardized ALR,0.9829860503617,0.944264309944033,1.02307344410859,Warehouse land share,Land use
+LAND_ALR_SMALL,V06,0.26640262728652,1.3052604863919,1.11656334848835,1.52590879777773,True,frozen selected form,,,,Primary schools,Education and health
+LAND_ALR_SMALL,V07,0.222508892609149,1.24920692831022,1.14047143132644,1.36844885949939,True,frozen selected form,,,,Home-based long-term care agencies,Healthcare access
+LAND_ALR_SMALL,V08,-0.0912706406057914,0.912770644667475,0.841177733296872,0.990427608535344,True,frozen selected form,,,,National Pension individually insured persons reporting income,Socioeconomic conditions
+LAND_ALR_SMALL,V09,-0.088981587004106,0.914862418777327,0.83617474560882,1.00105115189994,False,frozen selected form,,,,Clinics,Healthcare access
+LAND_ALR_SMALL,V10,-0.144436453821342,0.865509910503032,0.76066710855226,0.985106661386903,True,frozen selected form,,,,Vacant dwellings,Population and households
+LAND_ALR_SMALL,V11,0.144258020497061,1.15518213074291,1.03670688661774,1.28822755460613,True,frozen selected form,,,,Fiscal autonomy (before revenue reclassification),Prespecified adjustment
+LAND_ALR_SMALL,V12,-0.010975694393839,0.989084318777126,0.894413217400222,1.09414932568756,False,frozen selected form,,,,Sex ratio,Prespecified adjustment
+LAND_ALR_SMALL,V13,0.165169901866886,1.17959351682758,0.995591672447307,1.39702257517782,False,frozen selected form,,,,Recreational welfare facilities for older adults,Education and health
+LAND_ALR_SMALL,V14,0.0043900057367307,1.00439965592821,0.910885849267971,1.10680646624876,False,standardized ALR,1.00107484067117,0.977418515482418,1.02514343191988,Salt-pan land share,Land use
+LAND_ALR_SMALL,V15,0.0553188501908253,1.05687754656464,0.968876474353935,1.15430139397007,False,frozen selected form,,,,Row-house share,Population and households
+LAND_ALR_SMALL,V16,0.0147882670047024,1.01489815443857,0.937490889660115,1.09810486830009,False,frozen selected form,,,,Elevated-road area share,Land use
+LAND_ALR_SMALL,V17,0.0220446762913021,1.02228945555173,0.94676199505653,1.10368162683031,False,frozen selected form,,,,Riverside green-space area share,Land use
+LAND_ALR_SMALL,V18,0.0357921325972596,1.03644038192738,0.946506133843785,1.13487351956073,False,frozen selected form,,,,Family medicine specialists,Healthcare access
+LAND_ALR_SMALL,V19,-0.187114353296583,0.829348892182795,0.690021701106281,0.996562736605823,True,standardized ALR,0.894468896527224,0.801600349753426,0.997949874610886,Religious land share,Land use

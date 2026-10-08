@@ -1,0 +1,20 @@
+﻿Domain,Covariate,Original unit,Selected form,Source group
+Water environment,Domestic groundwater wells,"Number/1,000 population",log(1+x),Groundwater-use statistics
+,Septic-tank users outside sewer service areas,"Persons/1,000 population",log(1+x),Sewerage coverage statistics
+Land use,Miscellaneous land share,% of total area across 28 land categories,Four-category ordinal score,Land-use statistics
+,Park land share,% of total area across 28 land categories,Three-category ordinal score,Land-use statistics
+,Warehouse land share,% of total area across 28 land categories,Original value,Land-use statistics
+,Salt-pan land share,% of total area across 28 land categories,Binary (zero vs. positive),Land-use statistics
+,Elevated-road area share,% of total area across 28 land categories,Three-category ordinal score,Road-area statistics
+,Riverside green-space area share,% of total area across 28 land categories,Four-category ordinal score,Green-space area statistics
+,Religious land share,% of total area across 28 land categories,Three-category ordinal score,Land-use statistics
+Population and households,Vacant dwellings,"Dwellings/1,000 population",log(1+x),Housing and vacant-dwelling statistics
+,Row-house share,% of all dwellings,Original value,Housing and vacant-dwelling statistics
+Socioeconomic conditions,National Pension individually insured persons reporting income,"Persons/1,000 population",Original value,National Pension statistics
+Healthcare access,Home-based long-term care agencies,"Number/1,000 population",Original value,Healthcare facility and workforce statistics
+,Clinics,"Number/1,000 population",Four-category ordinal score,Healthcare facility and workforce statistics
+,Family medicine specialists,"Persons/1,000 population",Original value,Healthcare facility and workforce statistics
+Education and health,Primary schools,"Schools/1,000 population",Four-category ordinal score,Education institution statistics
+,Recreational welfare facilities for older adults,"Number/1,000 older residents",Original value,Older-adult welfare facility statistics
+Prespecified adjustment,Fiscal autonomy (before revenue reclassification),%,Original value,Local finance statistics
+,Sex ratio,Males/100 females,Original value,Resident registration population statistics

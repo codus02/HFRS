@@ -1,0 +1,4 @@
+﻿Measure,Moran's I,Permutation p,Permutations
+Observed SIR,0.535,0.001,999
+Posterior predictive quantile,0.002,0.443,999
+Pearson,−0.034,0.751,999

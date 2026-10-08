@@ -1,0 +1,6 @@
+﻿Specification,Groundwater wells,Septic-tank users,Miscellaneous land,Park land,Warehouse land,WAIC,Credible covariates (of 11)
+ Reference negative-binomial model , 1.489 (1.245–1.777) , 1.137 (1.019–1.269) , 1.146 (1.046–1.255) , 0.859 (0.766–0.964) , 0.853 (0.776–0.938) , 9734.4 , 11 
+ Zero-inflated negative binomial (type 1) with district-year effects , 1.481 (1.241–1.766) , 1.137 (1.019–1.269) , 1.145 (1.046–1.253) , 0.859 (0.766–0.963) , 0.854 (0.777–0.939) , 9732.6 , 11 
+" Pandemic years 2020–2022 excluded (2,508 district-years) ", 1.436 (1.196–1.724) , 1.165 (1.037–1.307) , 1.154 (1.049–1.269) , 0.847 (0.751–0.955) , 0.830 (0.750–0.918) , 7933.6 , 12 
+ Indicator for 2020–2022 added , 1.494 (1.250–1.783) , 1.138 (1.020–1.270) , 1.146 (1.047–1.256) , 0.860 (0.767–0.965) , 0.854 (0.776–0.939) , 9736.2 , 11 
+" Healthcare-access covariates removed (clinics, long-term care agencies, family-medicine specialists) ", 1.570 (1.316–1.871) , 1.123 (1.005–1.254) , 1.149 (1.048–1.260) , 0.842 (0.750–0.946) , 0.850 (0.772–0.934) , 9750.7 , 10 

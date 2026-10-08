@@ -1,0 +1,20 @@
+variable_id,selected_form,raw_q25,raw_median,raw_q75,transformed_mean,transformed_sd,max_reconstruction_error,multiplier_of_1_plus_x_for_one_sd,Covariate,Original unit
+V01,log(1+x),1.53745289385006,14.53284286711055,56.72767252824802,2.6558906533831816,1.6526857248524396,8.659739592076221e-15,5.220983138411059,Domestic groundwater wells,"Number/1,000 population"
+V02,Four-category ordinal score,0.4120034141139185,0.927816948988432,2.1785764547815827,,,,,Miscellaneous land share,% of total area across 28 land categories
+V03,log(1+x),0.0,38.5991067370704,156.15031364112798,3.0095819593387367,2.236247977847353,7.993605777301127e-15,9.358153335860578,Septic-tank users outside sewer service areas,"Persons/1,000 population"
+V04,Three-category ordinal score,0.03330112788229435,0.2422860639202355,1.3359710141693575,,,,,Park land share,% of total area across 28 land categories
+V05,Original value,0.04422618300727997,0.08735092678430245,0.154962375749747,0.15792575551936347,0.24678859838116016,2.6645352591003757e-14,,Warehouse land share,% of total area across 28 land categories
+V06,Four-category ordinal score,0.08923814803026571,0.14764543325072849,0.28984632261891324,,,,,Primary schools,"Schools/1,000 population"
+V07,Original value,0.2381601927407635,0.3424997454542875,0.5014881868165928,0.39493472245160366,0.21321920882726952,2.842170943040401e-14,,Home-based long-term care agencies,"Number/1,000 population"
+V08,Original value,70.9152083478085,77.0223964171337,84.69610733268951,78.1237987645352,10.289651319140717,5.062616992290714e-14,,National Pension individually insured persons reporting income,"Persons/1,000 population"
+V09,Four-category ordinal score,0.4178706793514615,0.5092428440799245,0.6047401324637567,,,,,Clinics,"Number/1,000 population"
+V10,log(1+x),17.4824378056142,35.6918906058753,57.06072414186667,3.4393697044182145,0.7759178048594948,1.0658141036401503e-14,2.172585221681751,Vacant dwellings,"Dwellings/1,000 population"
+V11,Original value,15.4,22.3,33.2,26.076005639097744,13.760177355092152,9.769962616701378e-15,,Fiscal autonomy (before revenue reclassification),%
+V12,Original value,97.0829637701762,99.84432576968035,103.06899990694275,100.49438462547555,5.35779385512854,1.9539925233402755e-14,,Sex ratio,Males/100 females
+V13,Original value,2.84,7.7,14.782499999999999,9.736074561403509,7.676155982780014,1.1546319456101628e-14,,Recreational welfare facilities for older adults,"Number/1,000 older residents"
+V14,Binary (zero vs. positive),0.0,0.0,0.0,,,,,Salt-pan land share,% of total area across 28 land categories
+V15,Original value,1.126475086614525,1.7312544345737302,2.49300432459934,2.0393929837735154,1.4598441270379379,2.5757174171303632e-14,,Row-house share,% of all dwellings
+V16,Three-category ordinal score,0.0,0.0,0.0,,,,,Elevated-road area share,% of total area across 28 land categories
+V17,Four-category ordinal score,0.000683425136049375,0.005923410628935449,0.06858219510447955,,,,,Riverside green-space area share,% of total area across 28 land categories
+V18,Original value,0.07328542244678862,0.10130121546985099,0.137901712633728,0.1153523615152123,0.08327313387569642,1.7763568394002505e-14,,Family medicine specialists,"Persons/1,000 population"
+V19,Three-category ordinal score,0.035563592978721775,0.07103992954584505,0.20486903812583274,,,,,Religious land share,% of total area across 28 land categories

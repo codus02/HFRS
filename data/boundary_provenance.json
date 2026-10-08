@@ -1,0 +1,10 @@
+{
+  "source_boundary_file": "독립변수-20260912T062350Z-1-001/독립변수/final.shp",
+  "sha256_original": "5ac1619c86034645f04f5e209a7aa83c0b47e7569d0a8dbbc297f01a9ea390d7",
+  "layer": "districts",
+  "crs": "EPSG:5179",
+  "included_for_plotting": 229,
+  "analysis_districts": 228,
+  "excluded_analysis_code": 37430,
+  "public_release": "Check original boundary redistribution terms before public Zenodo publication."
+}

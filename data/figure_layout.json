@@ -1,0 +1,245 @@
+{
+  "constants": {
+    "WARM": [
+      "#FFF0AA",
+      "#FECC5C",
+      "#FD8D3C",
+      "#F03B20",
+      "#BD0026"
+    ],
+    "PERIODS": [
+      [
+        "ALL",
+        2011,
+        2024,
+        "전체 2011–2024"
+      ],
+      [
+        "P1",
+        2011,
+        2015,
+        "2011–2015"
+      ],
+      [
+        "P2",
+        2016,
+        2019,
+        "2016–2019"
+      ],
+      [
+        "P3",
+        2020,
+        2024,
+        "2020–2024"
+      ]
+    ],
+    "GROUPS": [
+      [
+        "물환경",
+        [
+          "V01",
+          "V03"
+        ]
+      ],
+      [
+        "토지이용",
+        [
+          "V02",
+          "V04",
+          "V05",
+          "V14",
+          "V16",
+          "V17",
+          "V19"
+        ]
+      ],
+      [
+        "인구·가구",
+        [
+          "V10",
+          "V15"
+        ]
+      ],
+      [
+        "사회경제",
+        [
+          "V08"
+        ]
+      ],
+      [
+        "의료접근",
+        [
+          "V07",
+          "V09",
+          "V18"
+        ]
+      ],
+      [
+        "교육·건강",
+        [
+          "V06",
+          "V13"
+        ]
+      ],
+      [
+        "고정 보정변수",
+        [
+          "V11",
+          "V12"
+        ]
+      ]
+    ],
+    "NAMES": {
+      "V01": "생활용 지하수 관정 수",
+      "V02": "잡종지 면적비율",
+      "V03": "하수처리구역 외 정화조 인구",
+      "V04": "공원 면적비율",
+      "V05": "창고용지 면적비율",
+      "V06": "초등학교 수",
+      "V07": "노인장기요양 재가기관 수",
+      "V08": "국민연금 지역가입자 중 소득신고자 수",
+      "V09": "의원 수",
+      "V10": "빈집 수",
+      "V11": "재정자립도(세입과목 개편 전)",
+      "V12": "성비",
+      "V13": "노인여가복지시설 수",
+      "V14": "염전 면적비율",
+      "V15": "연립주택 비율",
+      "V16": "고가도로 면적비율",
+      "V17": "하천변 녹지 면적비율",
+      "V18": "가정의학과 전문의 수",
+      "V19": "종교용지 면적비율"
+    },
+    "UNITS": {
+      "V01": "개소/인구 1,000명",
+      "V02": "%",
+      "V03": "명/인구 1,000명",
+      "V04": "%",
+      "V05": "%",
+      "V06": "개교/인구 1,000명",
+      "V07": "개소/인구 1,000명",
+      "V08": "명/인구 1,000명",
+      "V09": "개소/인구 1,000명",
+      "V10": "호/인구 1,000명",
+      "V11": "%",
+      "V12": "여자 100명당 남자 수",
+      "V13": "개소/노인 인구 1,000명",
+      "V14": "%",
+      "V15": "전체 주택 대비 %",
+      "V16": "%",
+      "V17": "%",
+      "V18": "명/인구 1,000명",
+      "V19": "%"
+    }
+  },
+  "terms": {
+    "구분": "Category",
+    "항목 (단위)": "Measure (unit)",
+    "전체 (2011–2024)": "All (2011–2024)",
+    "연구자료": "Study data",
+    "관찰 기간 (년)": "Observation period (years)",
+    "시군구 수 (개)": "Districts (number)",
+    "시군구·연도 관측치 수": "District-year observations",
+    "인구 관찰량 (인년)": "Population follow-up (person-years)",
+    "발생현황": "Incidence",
+    "신고 환자 수 (명)": "Notified cases (number)",
+    "조발생률 (명/10만 인년)": "Crude incidence (cases/100,000 person-years)",
+    "지역분포": "Spatial distribution",
+    "SIR > 1인 시군구 수": "Districts with SIR > 1",
+    "SIR > 2인 시군구 수": "Districts with SIR > 2",
+    "영역": "Domain",
+    "공변량": "Covariate",
+    "원자료 단위": "Original unit",
+    "채택 형태": "Selected form",
+    "자료군": "Source group",
+    "물환경": "Water environment",
+    "생활용 지하수 관정 수": "Domestic groundwater wells",
+    "개소/인구 1,000명": "Number/1,000 population",
+    "지하수 이용 현황 통계": "Groundwater-use statistics",
+    "하수처리구역 외 정화조 인구": "Septic-tank users outside sewer service areas",
+    "명/인구 1,000명": "Persons/1,000 population",
+    "하수도 보급 통계": "Sewerage coverage statistics",
+    "토지이용": "Land use",
+    "잡종지 면적비율": "Miscellaneous land share",
+    "% (지목 28종 합계 면적 대비)": "% of total area across 28 land categories",
+    "사분형 순서 점수": "Four-category ordinal score",
+    "국토이용현황 통계": "Land-use statistics",
+    "공원 면적비율": "Park land share",
+    "삼분형 순서 점수": "Three-category ordinal score",
+    "창고용지 면적비율": "Warehouse land share",
+    "원값": "Original value",
+    "염전 면적비율": "Salt-pan land share",
+    "이분형(0 대 양수)": "Binary (zero vs. positive)",
+    "고가도로 면적비율": "Elevated-road area share",
+    "도로면적 통계": "Road-area statistics",
+    "하천변 녹지 면적비율": "Riverside green-space area share",
+    "녹지면적 통계": "Green-space area statistics",
+    "종교용지 면적비율": "Religious land share",
+    "인구·가구": "Population and households",
+    "빈집 수": "Vacant dwellings",
+    "호/인구 1,000명": "Dwellings/1,000 population",
+    "주택·빈집 통계": "Housing and vacant-dwelling statistics",
+    "연립주택 비율": "Row-house share",
+    "% (전체 주택 수 대비)": "% of all dwellings",
+    "사회경제": "Socioeconomic conditions",
+    "국민연금 지역가입자 중 소득신고자 수": "National Pension individually insured persons reporting income",
+    "국민연금 통계": "National Pension statistics",
+    "의료접근": "Healthcare access",
+    "노인장기요양 재가기관 수": "Home-based long-term care agencies",
+    "의료기관·의료인력 통계": "Healthcare facility and workforce statistics",
+    "의원 수": "Clinics",
+    "가정의학과 전문의 수": "Family medicine specialists",
+    "교육·건강": "Education and health",
+    "초등학교 수": "Primary schools",
+    "개교/인구 1,000명": "Schools/1,000 population",
+    "교육기관 통계": "Education institution statistics",
+    "노인여가복지시설 수": "Recreational welfare facilities for older adults",
+    "개소/노인 인구 1,000명": "Number/1,000 older residents",
+    "노인복지시설 통계": "Older-adult welfare facility statistics",
+    "고정 보정변수": "Prespecified adjustment",
+    "재정자립도(세입과목 개편 전)": "Fiscal autonomy (before revenue reclassification)",
+    "지방재정 통계": "Local finance statistics",
+    "성비": "Sex ratio",
+    "여자 100명당 남자 수": "Males/100 females",
+    "주민등록인구 통계": "Resident registration population statistics",
+    "공변량 (원자료 단위)": "Covariate (original unit)",
+    "전체 2011–2024": "All (2011–2024)",
+    "생활용 지하수 관정 수 (개소/인구 1,000명)": "Domestic groundwater wells (number/1,000 population)",
+    "하수처리구역 외 정화조 인구 (명/인구 1,000명)": "Septic-tank users outside sewer service areas (persons/1,000 population)",
+    "잡종지 면적비율 (%)": "Miscellaneous land share (%)",
+    "공원 면적비율 (%)": "Park land share (%)",
+    "창고용지 면적비율 (%)": "Warehouse land share (%)",
+    "염전 면적비율 (%)": "Salt-pan land share (%)",
+    "고가도로 면적비율 (%)": "Elevated-road area share (%)",
+    "하천변 녹지 면적비율 (%)": "Riverside green-space area share (%)",
+    "종교용지 면적비율 (%)": "Religious land share (%)",
+    "빈집 수 (호/인구 1,000명)": "Vacant dwellings (dwellings/1,000 population)",
+    "연립주택 비율 (전체 주택 대비 %)": "Row-house share (% of all dwellings)",
+    "국민연금 지역가입자 중 소득신고자 수 (명/인구 1,000명)": "National Pension individually insured persons reporting income (persons/1,000 population)",
+    "노인장기요양 재가기관 수 (개소/인구 1,000명)": "Home-based long-term care agencies (number/1,000 population)",
+    "의원 수 (개소/인구 1,000명)": "Clinics (number/1,000 population)",
+    "가정의학과 전문의 수 (명/인구 1,000명)": "Family medicine specialists (persons/1,000 population)",
+    "초등학교 수 (개교/인구 1,000명)": "Primary schools (schools/1,000 population)",
+    "노인여가복지시설 수 (개소/노인 인구 1,000명)": "Recreational welfare facilities for older adults (number/1,000 older residents)",
+    "재정자립도(세입과목 개편 전) (%)": "Fiscal autonomy (before revenue reclassification) (%)",
+    "성비 (여자 100명당 남자 수)": "Sex ratio (males/100 females)",
+    "모형": "Model",
+    "구성": "Structure",
+    "공변량만": "Covariates only",
+    "공변량 + 구조화 공간효과": "Covariates + structured spatial effect",
+    "공변량 + BYM2": "Covariates + BYM2",
+    "공변량 + BYM2 + 시군구·연도": "Covariates + BYM2 + district-year effects",
+    "공변량 + BYM2 + RW1": "Covariates + BYM2 + RW1",
+    "공변량 + BYM2 + RW1 + 시군구·연도": "Covariates + BYM2 + RW1 + district-year effects",
+    "대상": "Measure",
+    "순열 p": "Permutation p",
+    "순열 횟수": "Permutations",
+    "관측 SIR(전체기간, 모형 적합 전)": "Observed SIR (full period, before model fitting)",
+    "주 모형 사후예측 분위잔차": "Main-model posterior predictive quantile residuals",
+    "주 모형 Pearson 잔차": "Main-model Pearson residuals",
+    "변수": "Variable",
+    "추가 전": "Main model",
+    "추가 후": "With urban population share",
+    "도시지역 인구비율": "Urban population share"
+  }
+}

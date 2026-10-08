@@ -1,0 +1,4 @@
+"diagnostic","Moran_I","p","permutations","posterior_draws"
+"Observed SIR",0.534775644949492,0.001,999,NA
+"Posterior predictive quantile",0.00249093240457477,0.443,999,1000
+"Pearson (offset corrected)",-0.0340194233454576,0.751,999,NA

@@ -1,0 +1,6 @@
+﻿Parameter,Posterior mean,95% CrI
+size for the nbinomial observations (1/overdispersion),2.867,1.932–3.885
+Precision for region_id,3.437,2.426–4.723
+Phi for region_id,0.600,0.300–0.867
+Precision for year_id,9.514,3.796–18.973
+Precision for id_st,38.553,5.791–164.171

@@ -1,0 +1,11 @@
+{
+  "spearman_obs_pred_SIR": 0.9727956933211073,
+  "districts_obs_pred_ratio_within_0.8_1.25": 179,
+  "districts_obs_pred_ratio_gt2_or_lt0.5": 7,
+  "pit_mean": 0.6568780777210135,
+  "pit_sd": 0.22243017591343972,
+  "pit_failures": 0,
+  "pit_share_below_0.1": 0.007832080200501253,
+  "pit_share_above_0.9": 0.15664160401002505,
+  "pit_ks_distance_from_uniform": 0.2607998691967439
+}

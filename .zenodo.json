@@ -1,0 +1,36 @@
+{
+  "title": "Spatiotemporal patterns of hemorrhagic fever with renal syndrome and associations with local infrastructure and land use in South Korea, 2011–2024 (analysis code and compiled data)",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "Reproducibility package for a Bayesian spatiotemporal analysis of district-level hemorrhagic fever with renal syndrome (HFRS) incidence across 228 South Korean districts, 2011-2024 (3,192 district-years, 5,634 notified cases): negative-binomial model with age-standardized expected counts as offset, BYM2 spatial effect, first-order random-walk year effect and district-year interaction, fitted with R-INLA. Contains the R scripts for the 19-covariate principal model, the period-specific refits (2011-2015, 2016-2019, 2020-2024), the urban-share adjustment, and the sensitivity program (imputation exclusion, likelihood and random-effect structure, compositional land-use coding, eight neighbourhood graphs, alternative priors, zero-inflated likelihood, pandemic-year specifications, healthcare-access removal), residual and posterior predictive diagnostics, the compiled district-year analysis panel with a variable codebook, the neighbourhood graph and district boundaries, archived manuscript values, and R/INLA session information. The covariate specification was developed exploratorily; the reported associations are ecological and hypothesis-generating.",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Lee, Chaeyeon",
+      "affiliation": "Hongik University, Seoul, Republic of Korea",
+      "orcid": "0009-0003-8251-360X"
+    },
+    {
+      "name": "Lee, Geonsang",
+      "affiliation": "Hongik University, Seoul, Republic of Korea",
+      "orcid": "0009-0004-4577-4576"
+    },
+    {
+      "name": "Kim, Seongdae",
+      "affiliation": "Hongik University, Seoul, Republic of Korea",
+      "orcid": "0000-0002-1525-0091"
+    }
+  ],
+  "keywords": [
+    "hemorrhagic fever with renal syndrome",
+    "hantavirus",
+    "spatial epidemiology",
+    "Bayesian disease mapping",
+    "Besag-York-Mollie",
+    "INLA",
+    "groundwater",
+    "sanitation",
+    "land use",
+    "South Korea"
+  ]
+}

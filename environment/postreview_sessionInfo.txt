@@ -1,0 +1,28 @@
+R version 4.3.1 (2023-06-16 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+Running under: Windows 11 x64 (build 26200)
+
+Matrix products: default
+
+
+locale:
+[1] C
+system code page: 65001
+
+time zone: Asia/Seoul
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] spdep_1.3-10   sf_1.0-20      spData_2.3.4   INLA_23.09.09  sp_2.2-0      
+[6] Matrix_1.5-4.1
+
+loaded via a namespace (and not attached):
+ [1] s2_1.1.7           fmesher_0.3.0      lattice_0.21-8     magrittr_2.0.3    
+ [5] e1071_1.7-16       splines_4.3.1      KernSmooth_2.23-21 deldir_2.0-4      
+ [9] wk_0.9.4           lifecycle_1.0.4    classInt_0.4-11    cli_3.6.4         
+[13] grid_4.3.1         DBI_1.2.3          withr_3.0.2        proxy_0.4-27      
+[17] class_7.3-22       compiler_4.3.1     boot_1.3-28.1      tools_4.3.1       
+[21] Rcpp_1.0.14        rlang_1.1.5        units_0.8-7       

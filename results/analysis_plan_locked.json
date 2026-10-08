@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-10-08T04:45:31.504988+00:00",
+  "purpose": "Targeted post-review sensitivity analyses; exploratory main model retained.",
+  "outcome": "HFRS notified cases",
+  "n": 3192,
+  "regions": 228,
+  "years": [
+    2011,
+    2024
+  ],
+  "main_variables": [
+    "V01",
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06",
+    "V07",
+    "V08",
+    "V09",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19"
+  ],
+  "fixed_design": "Frozen main-model design matrix, full-period scaling, same offset and PC priors.",
+  "seed": 1008,
+  "models": [
+    {
+      "id": "BASE",
+      "family": "nbinomial",
+      "district_year_iid": true
+    },
+    {
+      "id": "DROP50",
+      "drop": [
+        "V17"
+      ],
+      "rule": "Exclude covariates with >50% filled entries; retain all rows."
+    },
+    {
+      "id": "DROP20",
+      "drop": [
+        "V10",
+        "V15",
+        "V17"
+      ],
+      "rule": "Exclude covariates with >20% filled entries; retain all rows."
+    },
+    {
+      "id": "NB_NO_IID",
+      "family": "nbinomial",
+      "district_year_iid": false
+    },
+    {
+      "id": "POIS_IID",
+      "family": "poisson",
+      "district_year_iid": true
+    },
+    {
+      "id": "LAND_ALR",
+      "parts": [
+        "V02",
+        "V04",
+        "V05",
+        "V14",
+        "V19",
+        "remainder"
+      ],
+      "zero_replacement_percentage_points": 0.001
+    },
+    {
+      "id": "LAND_ALR_SMALL",
+      "parts": [
+        "V02",
+        "V04",
+        "V05",
+        "V14",
+        "V19",
+        "remainder"
+      ],
+      "zero_replacement_percentage_points": 0.0001
+    }
+  ],
+  "land_method": "Five nonoverlapping cadastral classes plus all remaining classes. Replace zeros only, multiplicatively rescale positive parts to preserve 100%, and use log(part/remainder). Elevated-road and riverside-green-space measures overlap cadastral classes and are not included as composition parts. Standardize ALRs using full-period sample SD. All five ALRs enter together; other covariates unchanged.",
+  "land_interpretation": "Report ALR coefficient IRR per 1 SD and per doubling of part/remainder. Do not compare magnitude directly with original ordinal/raw IRRs.",
+  "assess": "Report all coefficients and CrIs, not only successful sensitivities; also WAIC/DIC, NB size, all random-effect hyperparameters and Pearson residual Moran I.",
+  "scope": "Does not propagate model-selection or single-imputation uncertainty; no claim of formal period differences or out-of-area predictive validation.",
+  "main_policy": "Retain frozen published-in-draft main and period estimates. Refitted BASE is the paired reference for sensitivity comparisons; numerical differences are reported."
+}

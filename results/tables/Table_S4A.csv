@@ -1,0 +1,7 @@
+﻿Model,Structure,DIC,WAIC
+M1,Covariates only,10300.5,10303.0
+M2,Covariates + structured spatial effect,9860.4,9865.4
+M3,Covariates + BYM2,9861.9,9866.2
+M4,Covariates + BYM2 + district-year effects,9845.7,9852.2
+M5,Covariates + BYM2 + RW1,9755.4,9760.1
+M6,Covariates + BYM2 + RW1 + district-year effects,9726.6,9734.4

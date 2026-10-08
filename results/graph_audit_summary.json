@@ -1,0 +1,7 @@
+{
+  "undirected_edges": 592,
+  "gaps_over_1m": 5,
+  "interpretation": "Distances refer to the supplied polygon layer; gaps do not prove a link was manually added. The original supplied graph is preserved.",
+  "boundary_source": "독립변수-20260912T062350Z-1-001/독립변수/final.shp",
+  "excluded_code": 37430
+}

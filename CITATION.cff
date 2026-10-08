@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated article and the archived software release (Zenodo DOI to be added after the first GitHub release)."
+title: "Spatiotemporal patterns of hemorrhagic fever with renal syndrome and associations with local infrastructure and land use in South Korea, 2011–2024 (analysis code and compiled data)"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Lee
+    given-names: Chaeyeon
+    affiliation: "Hongik University"
+    orcid: "https://orcid.org/0009-0003-8251-360X"
+  - family-names: Lee
+    given-names: Geonsang
+    affiliation: "Hongik University"
+    orcid: "https://orcid.org/0009-0004-4577-4576"
+  - family-names: Kim
+    given-names: Seongdae
+    affiliation: "Hongik University"
+    orcid: "https://orcid.org/0000-0002-1525-0091"
+repository-code: "https://github.com/codus02/HFRS"
+license: MIT
+keywords:
+  - hemorrhagic fever with renal syndrome
+  - hantavirus
+  - spatial epidemiology
+  - Bayesian disease mapping
+  - Besag-York-Mollie
+  - INLA
+  - groundwater
+  - sanitation
+  - land use
+  - South Korea

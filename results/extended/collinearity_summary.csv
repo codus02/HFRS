@@ -1,0 +1,7 @@
+"diagnostic","value"
+"Covariates, no.",19
+"Maximum variance inflation factor",7.6
+"Covariates with VIF > 5, no.",2
+"Covariates with VIF > 10, no.",0
+"Design-matrix condition number (scaled)",8.3
+"Covariate pairs with |Spearman rho| > 0.7, no.",17

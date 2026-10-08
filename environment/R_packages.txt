@@ -1,0 +1,6 @@
+R 4.3.1
+INLA 23.09.09
+spdep 1.3-10
+See postreview_sessionInfo.txt for all loaded and linked packages.
+Install INLA from its official repository: https://inla.r-inla-download.org/R/stable
+Exact historical INLA binary availability may differ; record the version used for a rerun.
